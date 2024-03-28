@@ -5,4 +5,9 @@ public class Student extends Person{
     void getGrade(){
         System.out.println("Получил оценку");
     }
+
+    @Override
+    void homeTask() {
+        System.out.println("Выполняет");
+    }
 }

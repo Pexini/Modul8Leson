@@ -12,12 +12,13 @@ public class Main {
         System.out.println("Учитель " + teacher.fio + " " + teacher.birthday);
         teacher.comeToClass();
         teacher.setGrade();
+        teacher.homeTask();
 
         student.fio = "Мальчиков Николай Семенович";
-        student.birthday = new Date(2005,12,28);
+        student.birthday = new Date(2005, 12, 28);
         System.out.println("Ученик " + student.fio + " " + student.birthday);
         student.comeToClass();
         student.getGrade();
-
+        student.homeTask();
     }
 }
