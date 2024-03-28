@@ -1,9 +1,11 @@
 package Inheritence;
 
+import java.util.Date;
+
 public class Person {
-    String info;
+    String fio;
     Date birthday;
-    void coToClass(){
+    void comeToClass(){
         System.out.println("Пришел на урок");
     }
 
